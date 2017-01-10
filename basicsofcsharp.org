@@ -1,0 +1,53 @@
+* General Remarks About C# 
+** What is abstraction vs. detail
+** Where did C# derive from? 
+*** The parts of C# that come from C and C++ like ; and {} and null
+** How is C# different from C/C++? 
+*** Automatic memory management
+*** CLR and the Virtual Machine
+* Object Orientation And C#
+** What's a class, what's an object and what's the difference?
+** What's an interface?  Where do I use it?
+** What's inheritance, encapsulation and polymorphism?
+** What is public, private, protected and internal?
+** What's a constructor? 
+*** When is a constructor invoked?
+*** What would we do in a constructor?
+** What is a method?  
+** What is a class member?
+** What is a base class and what is a derived class?  
+* Types, Value Types and Reference Types
+** What's a type?
+*** Types built in to C#
+**** bool
+**** byte
+**** char
+**** decimal
+**** double
+**** float
+**** int/uint
+**** long/ulong
+**** sbyte
+**** short/ushort
+** What's a value type?
+** What's a reference type?
+** How can I convert between a value type and a reference type and why would I want to?
+* Flow Of Control
+** if
+** switch
+** ?: operator 
+** for
+** while/do while
+*** break
+*** continue
+*** goto
+*** return
+* Functions and Subroutines
+** Visibility (public, private, internal, protected)
+** Return type 
+** Arguments (aka Parameters)
+**  
+
+
+
+

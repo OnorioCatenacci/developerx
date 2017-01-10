@@ -1,0 +1,9 @@
+* Namespaces
+** How Did Namespaces Arise?
+*** Conflicts of names between classes and variables
+*** Needed way to disambiguate symbols
+** What is the standard for naming a namespace?
+
+
+
+
