@@ -6,10 +6,10 @@
 
 void Main()
 {
-	var flicka = new Mammal(new DateTime(2016,1,1),"Horse","Equus caballus",false);
+	var flicka = new Mammal(new DateTime(2006,1,1),"Horse","Equus caballus",false);
 	flicka.Move();
 	
-	var flipper = new Mammal(new DateTime(2016,1,1),"Bottlenose Dolphin","Tursiops truncatus", true);
+	var flipper = new Mammal(new DateTime(1964,1,1),"Bottlenose Dolphin","Tursiops truncatus", true);
 	flipper.Move();
 }
 
