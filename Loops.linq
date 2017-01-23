@@ -6,8 +6,8 @@
 
 void Main()
 {
-	var l = new List<Int16> { 1, 2, 3, 4, 5, 6};
-//	var l = new List<string> {"Hi","Hola","Ciao","Hallo","Здравствуйте"};
+//	var l = new List<Int16> { 1, 2, 3, 4, 5, 6};
+	var l = new List<string> {"Hi","Hola","Ciao","Hallo","Здравствуйте"};
 
 	//For loop
 	//NB: be extra careful with the test.
@@ -36,11 +36,22 @@ void Main()
 	{
 		Console.WriteLine("Do While Loop: Element {0} is {1}", j, l[j]);
 	}
-	while (++j < l.Count());  
+	while (++j < l.Count());
 	// NB: we increment j _before_ we test it against l.Count.  
 	// This is another thing to be careful about!
-	
+
+	Console.WriteLine("");
+
+//	foreach (int fe in l)  //NB: we must declare the index variable to be the correct type!
+//	{
+//		Console.WriteLine("Foreach Loop: fe is {0}", fe);
+//	}
+
+	foreach (string fe in l)  //NB: we must declare the index variable to be the correct type!
+	{
+		Console.WriteLine("Foreach Loop: fe is {0}", fe);
+	}
+
 	// Main point here: if you can use LINQ to accomplish what you would do with a loop, use LINQ.  Otherwise just be 
 	// careful about looping code.  It's tricky for almost every developer. 
 }
-

@@ -43,13 +43,23 @@ public class Mammal : Animal, IMovement
 	
 	public void Move()
 	{
-		if (!_aquatic)
+		if (_aquatic)
 		{
-			Console.WriteLine("Run like the wind!");
+			swim();
 		}
 		else
 		{
-			Console.WriteLine("Swim like the tide!");
+			run();
 		}
+	}
+
+	private void run()
+	{
+		Console.WriteLine("Run like the wind!");
+	}
+	
+	private void swim()
+	{
+		Console.WriteLine("Swim like the tide!");
 	}
 }
