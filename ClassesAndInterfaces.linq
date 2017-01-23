@@ -15,15 +15,15 @@ void Main()
 
 public class Animal
 {
-	private readonly DateTime _dateOfBirth;
-	private readonly String _species;
-	private readonly String _scientificName;
+	private readonly DateTime dateOfBirth;
+	private readonly String species;
+	private readonly String scientificName;
 	
-	public Animal(DateTime dob, String species, String scientificName)
+	public Animal(DateTime dob, String Species, String ScientificName)
 	{
-		_dateOfBirth = dob;
-		_species = species;
-		_scientificName = scientificName;
+		dateOfBirth = dob;
+		species = Species;
+		scientificName = ScientificName;
 	}
 }
 
@@ -34,16 +34,16 @@ public interface IMovement
 
 public class Mammal : Animal, IMovement
 {
-	private readonly Boolean _aquatic;
+	private readonly Boolean aquatic;
 	
 	public Mammal(DateTime dob, String species, String scientificName, Boolean Aquatic): base(dob, species, scientificName)
 	{
-		_aquatic = Aquatic;
+		aquatic = Aquatic;
 	}
 	
 	public void Move()
 	{
-		if (_aquatic)
+		if (aquatic)
 		{
 			swim();
 		}

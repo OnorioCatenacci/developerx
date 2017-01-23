@@ -11,7 +11,7 @@ void Main()
 	var cherami = new Avian(new DateTime(1915,1,1),"Racing Pigeon","Columba livia", true);
 	var gijoe = new Avian(new DateTime(1943,1,1),"Rock Dove","Columba livia livia", true);
 
-	var menagerie = new List<Animal>();
+    List<Animal> menagerie = new List<Animal>();
 	menagerie.Add(flicka);
 	menagerie.Add(flipper);
 	menagerie.Add(cherami);
@@ -29,34 +29,34 @@ void Main()
 
 public class Animal
 {
-	public readonly DateTime _dateOfBirth;
-	public readonly String _species;
-	public readonly String _scientificName;
+	public readonly DateTime dateOfBirth;
+	public readonly String species;
+	public readonly String scientificName;
 
-	public Animal(DateTime dob, String species, String scientificName)
+	public Animal(DateTime dob, String Species, String ScientificName)
 	{
-		_dateOfBirth = dob;
-		_species = species;
-		_scientificName = scientificName;
+		dateOfBirth = dob;
+		species = Species;
+		scientificName = ScientificName;
 	}
 }
 
 public class Mammal : Animal
 {
-	private readonly Boolean _aquatic;
+	private readonly Boolean aquatic;
 
 	public Mammal(DateTime dob, String species, String scientificName, Boolean Aquatic) : base(dob, species, scientificName)
 	{
-		_aquatic = Aquatic;
+		aquatic = Aquatic;
 	}
 }
 
 public class Avian : Animal
 {
-	private readonly Boolean _flying;
+	private readonly Boolean flying;
 
-	public Avian(DateTime dob, String species, String scientificName, Boolean flying) : base(dob, species, scientificName)
+	public Avian(DateTime dob, String species, String scientificName, Boolean Flying) : base(dob, species, scientificName)
 	{
-		_flying = flying;
+		flying = Flying;
 	}
 }

@@ -14,49 +14,49 @@ void Main()
 
 public class Animal
 {
-	private readonly DateTime _dateOfBirth;
-	private readonly String _species;
-	private readonly String _scientificName;
-	private readonly Foodstore _foodstore;  //Hold the injected dependency
+	private readonly DateTime dateOfBirth;
+	private readonly String species;
+	private readonly String scientificName;
+	private readonly Foodstore foodstore;  //Hold the injected dependency
 	
-	public Animal(DateTime dob, String species, String scientificName, Foodstore fs /*this is the dependency that is injected */)
+	public Animal(DateTime dob, String Species, String ScientificName, Foodstore fs /*this is the dependency that is injected */)
 	{
-		_dateOfBirth = dob;
-		_species = species;
-		_scientificName = scientificName;
-		_foodstore = fs;
+		dateOfBirth = dob;
+		species = Species;
+		scientificName = ScientificName;
+		foodstore = fs;
 	}
 	
 	public int GetFood(int foodRequested)
 	{
-		return (_foodstore.GetFood(foodRequested));
+		return (foodstore.GetFood(foodRequested));
 	}
 }
 
 public class Foodstore
 {
-	private int _tonsOfFoodAvailable;
+	private int tonsOfFoodAvailable;
 	
 	public Foodstore()
 	{
-		_tonsOfFoodAvailable = 0; 
+		tonsOfFoodAvailable = 0; 
 	}
 
 	public int GetFood(int foodRequested)
 	{
-		if (_tonsOfFoodAvailable <= 0)
+		if (tonsOfFoodAvailable <= 0)
 		{
 			return 0;
 		}
 		else
 		{
-			_tonsOfFoodAvailable = (_tonsOfFoodAvailable - foodRequested < 0) ? 0 : _tonsOfFoodAvailable -= foodRequested;
+			tonsOfFoodAvailable = (tonsOfFoodAvailable - foodRequested < 0) ? 0 : tonsOfFoodAvailable -= foodRequested;
 			return foodRequested;
 		}
 	}
 
 	public void StoreFood(int foodPurchased)
 	{
-		_tonsOfFoodAvailable += foodPurchased;
+		tonsOfFoodAvailable += foodPurchased;
 	}
 }

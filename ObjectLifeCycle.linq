@@ -6,35 +6,36 @@
 
 public class TestClass
 {
-	private int _member1;
-	private string _member2;
+	
+	private int member1;
+	private string member2;
 
 	TestClass()  //The default constructor (no parameters).  Note visibility is _private_ by default.
 	{
-		_member1 = 1000;
-		_member2 = "";
+		member1 = 1000;
+		member2 = "";
 	}
 
 	public TestClass(int m1_value)  //A public constructor that specifies member1's value.  Note that like any other method constructors can be (and often are) overloaded.
 	{
-		_member1 = m1_value;
-		_member2 = "";
+		member1 = m1_value;
+		member2 = "";
 	}
 
 	public TestClass(int m1_value, string m2_value) : this(m1_value)
 	{
-		_member2 = m2_value;
+		member2 = m2_value;
 	}
 	
 	public TestClass(string m2_value): this()
 	{
-		_member2 = m2_value;
+		member2 = m2_value;
 	}
 	
 	public void ExamineValues()
 	{
-		Console.WriteLine("_member1 is " + _member1.ToString());
-		Console.WriteLine("_member2 is " + _member2);
+		Console.WriteLine("_member1 is " + member1.ToString());
+		Console.WriteLine("_member2 is " + member2);
 	}
 }
 
