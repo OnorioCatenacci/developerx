@@ -1,0 +1,10 @@
+c:\users\ocatenacci\skunkworks\USFS.EmployeeDirectory\USFS.EmployeeDirectory\bin\Debug\USFS.EmployeeDirectory.dll
+c:\users\ocatenacci\skunkworks\USFS.EmployeeDirectory\USFS.EmployeeDirectory\bin\Debug\USFS.EmployeeDirectory.pdb
+c:\users\ocatenacci\skunkworks\USFS.EmployeeDirectory\USFS.EmployeeDirectory\obj\Debug\USFS.EmployeeDirectory.dll
+c:\users\ocatenacci\skunkworks\USFS.EmployeeDirectory\USFS.EmployeeDirectory\obj\Debug\USFS.EmployeeDirectory.pdb
+C:\Users\ocatenacci\skunkworks\USFS.EmployeeDirectory\USFS.EmployeeDirectory\obj\Debug\USFS.EmployeeDirectory.csprojResolveAssemblyReference.cache
+C:\Users\ocatenacci\Documents\developerx\USFS.EmployeeDirectory\USFS.EmployeeDirectory\bin\Debug\USFS.EmployeeDirectory.dll
+C:\Users\ocatenacci\Documents\developerx\USFS.EmployeeDirectory\USFS.EmployeeDirectory\bin\Debug\USFS.EmployeeDirectory.pdb
+C:\Users\ocatenacci\Documents\developerx\USFS.EmployeeDirectory\USFS.EmployeeDirectory\obj\Debug\USFS.EmployeeDirectory.csprojResolveAssemblyReference.cache
+C:\Users\ocatenacci\Documents\developerx\USFS.EmployeeDirectory\USFS.EmployeeDirectory\obj\Debug\USFS.EmployeeDirectory.dll
+C:\Users\ocatenacci\Documents\developerx\USFS.EmployeeDirectory\USFS.EmployeeDirectory\obj\Debug\USFS.EmployeeDirectory.pdb

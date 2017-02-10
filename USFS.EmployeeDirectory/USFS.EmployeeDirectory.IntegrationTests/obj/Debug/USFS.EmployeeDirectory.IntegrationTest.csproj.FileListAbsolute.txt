@@ -1,0 +1,9 @@
+C:\Users\ocatenacci\skunkworks\USFS.EmployeeDirectory\USFS.EmployeeDirectory.IntegrationTests\bin\Debug\USFS.EmployeeDirectory.IntegrationTests.dll
+C:\Users\ocatenacci\skunkworks\USFS.EmployeeDirectory\USFS.EmployeeDirectory.IntegrationTests\bin\Debug\USFS.EmployeeDirectory.IntegrationTests.pdb
+C:\Users\ocatenacci\skunkworks\USFS.EmployeeDirectory\USFS.EmployeeDirectory.IntegrationTests\obj\Debug\USFS.EmployeeDirectory.IntegrationTests.dll
+C:\Users\ocatenacci\skunkworks\USFS.EmployeeDirectory\USFS.EmployeeDirectory.IntegrationTests\obj\Debug\USFS.EmployeeDirectory.IntegrationTests.pdb
+C:\Users\ocatenacci\Documents\developerx\USFS.EmployeeDirectory\USFS.EmployeeDirectory.IntegrationTests\bin\Debug\USFS.EmployeeDirectory.IntegrationTests.dll
+C:\Users\ocatenacci\Documents\developerx\USFS.EmployeeDirectory\USFS.EmployeeDirectory.IntegrationTests\bin\Debug\USFS.EmployeeDirectory.IntegrationTests.pdb
+C:\Users\ocatenacci\Documents\developerx\USFS.EmployeeDirectory\USFS.EmployeeDirectory.IntegrationTests\obj\Debug\USFS.EmployeeDirectory.IntegrationTest.csprojResolveAssemblyReference.cache
+C:\Users\ocatenacci\Documents\developerx\USFS.EmployeeDirectory\USFS.EmployeeDirectory.IntegrationTests\obj\Debug\USFS.EmployeeDirectory.IntegrationTests.dll
+C:\Users\ocatenacci\Documents\developerx\USFS.EmployeeDirectory\USFS.EmployeeDirectory.IntegrationTests\obj\Debug\USFS.EmployeeDirectory.IntegrationTests.pdb
